@@ -1,0 +1,15 @@
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/bin/Debug/net7.0/Stack_Queue
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/bin/Debug/net7.0/Stack_Queue.deps.json
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/bin/Debug/net7.0/Stack_Queue.runtimeconfig.json
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/bin/Debug/net7.0/Stack_Queue.dll
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/bin/Debug/net7.0/Stack_Queue.pdb
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.csproj.AssemblyReference.cache
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.AssemblyInfoInputs.cache
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.AssemblyInfo.cs
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.csproj.CoreCompileInputs.cache
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.dll
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/refint/Stack_Queue.dll
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.pdb
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/Stack_Queue.genruntimeconfig.cache
+/Users/hoangthanh/DSA/DSA-N2/B3/Stack_Queue/obj/Debug/net7.0/ref/Stack_Queue.dll
