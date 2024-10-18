@@ -1,4 +1,6 @@
-﻿public class Node
+﻿using System.Collections;
+using System.Data.SqlTypes;
+public class Node
 {
     public Node next;
     public object data;
@@ -36,7 +38,16 @@ public class MyStack
             this.Push(temp.Pop().data);
     }
     public MyStack Sort(){
-        
+        MyStack temp = new MyStack();
+        List<int> list = new List<int>();
+        while(!this.IsEmpty())
+            list.Add((int)this.Pop().data);
+        foreach(int x in list)
+            this.Push(x);
+        list.Sort();
+        foreach(int x in list)
+            temp.Push(x);
+        return temp;
     }
 }
 public class Node2
@@ -51,16 +62,21 @@ public class MyQueue
     {
         return rear == null || front == null;
     }
-    public void Enqueue(object ele)
-    {
+    public void Enqueue2(object ele){
+        List<int> list = new List<int>();
+        while(!this.IsEmpty())
+            list.Add((int)this.Dequeue().data);
+        list.Add((int)ele);
+        list.Sort();
+        foreach(int value in list)
+            this.Enqueue(value);
+    }
+    public void Enqueue(object ele){
         Node2 n = new Node2();
         n.data = ele;
-        if (rear == null)
-        {
+        if (rear == null){
             rear = n; front = n;
-        }
-        else
-        {
+        }else{
             rear.prev = n;
             n.next = rear; rear = n;
         }
@@ -81,14 +97,28 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        MyStack st = new MyStack();
-        st.Push(25);
-        st.Push(46);
-        st.Push(22);
-        st.Push(33);
-        st.Push(88);
-        st.Push(10);
-        st.RemoveOdd();
+        MyQueue q = new MyQueue();
+        q.Enqueue2(25);
+        q.Enqueue2(46);
+        q.Enqueue2(22);
+        q.Enqueue2(33);
+        q.Enqueue2(88);
+        q.Enqueue2(10);
         ;
+
+        Queue qc = new Queue();
+        Stack sc = new Stack();
+
+        Queue<int> qg = new Queue<int>();
+        Stack<int> sq = new Stack<int>();
+
+        qc.Enqueue(1);
+        int x = (int)qc.Dequeue();
+        sc.Push(1);
+        int y = (int)sc.Pop();
+
+        qg.Enqueue(1); int xx = qg.Dequeue();
+        sq.Push(1); int yy = sq.Pop();
+        int oo = sq.Peek();
     }
 }
